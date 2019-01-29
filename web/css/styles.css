@@ -8,8 +8,8 @@ body {
     overflow: hidden;
     margin: 0;
     filter: drop-shadow(10px 10px 10px #000);
+    background: url('../images/background.png') center;
     background-size: cover;
-    background-image: url('../images/background.png');
     color: #fff;
     font-weight: 300;
     font-size: 100%;
