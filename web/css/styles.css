@@ -16,9 +16,8 @@ body {
 
 .main {
     position: relative;
-    top: 45%;
     text-align: center;
-    transform: translateY(25%);
+    transform: translateY(10%);
 }
 
 #avatar {
