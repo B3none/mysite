@@ -1,7 +1,9 @@
+/* Core */
 body, html {
     height: 100%;
 }
 
+/* Main */
 body {
     overflow: hidden;
     margin: 0;
@@ -103,7 +105,7 @@ ul li img:hover {
     100% { transform: translate(6px, -8px) rotate(7deg); }
 }
 
-/* media queries */
+/* Media queries */
 @media only screen and (max-width: 576px) {
     ul li {
         margin: 0;
