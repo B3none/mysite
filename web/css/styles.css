@@ -115,6 +115,10 @@ ul li img:hover {
     body {
         overflow: scroll;
     }
+
+    .main {
+        transform: translateY(3%);
+    }
 }
 
 @media only screen and (max-width: 509px) {
