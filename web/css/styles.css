@@ -121,14 +121,16 @@ ul li img:hover {
     }
 }
 
-@media only screen and (max-width: 509px) {
-    .summary > h1 {
-        font-size: 350%;
-    }
-
+@media only screen and (max-width: 524px) {
     ul li {
         display: block;
         margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 509px) {
+    .summary > h1 {
+        font-size: 350%;
     }
 }
 
