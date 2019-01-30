@@ -20,7 +20,6 @@ body {
     position: relative;
     text-align: center;
     transform: translateY(10%);
-    margin-bottom: 10%;
 }
 
 #avatar {
@@ -111,6 +110,10 @@ ul li img:hover {
 @media only screen and (max-width: 576px) {
     ul li {
         margin: 0;
+    }
+
+    body {
+        overflow: scroll;
     }
 }
 
