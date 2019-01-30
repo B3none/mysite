@@ -1,7 +1,6 @@
 /* Core */
 body, html {
     height: 100%;
-    overscroll-behavior: none;
 }
 
 /* Main */
@@ -118,7 +117,8 @@ ul li img:hover {
 
 @media only screen and (max-width: 576px) {
     body {
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     .main {
