@@ -107,24 +107,21 @@ ul li img:hover {
 }
 
 /* Media queries */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 780px) {
     ul li {
-        margin: 0;
+        display: block;
+        margin-top: 20px;
+        margin-left: 0;
     }
+}
 
+@media only screen and (max-width: 576px) {
     body {
         overflow: scroll;
     }
 
     .main {
         transform: translateY(3%);
-    }
-}
-
-@media only screen and (max-width: 524px) {
-    ul li {
-        display: block;
-        margin-top: 20px;
     }
 }
 
