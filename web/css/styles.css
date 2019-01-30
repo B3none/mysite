@@ -101,9 +101,9 @@ ul li img:hover {
     75% { transform: translate(-2px, 5px) rotate(13deg); }
     80% { transform: translate(-6px, -5px) rotate(-11deg); }
     85% { transform: translate(3px, -12px) rotate(0deg); }
-    90% { transform: translate(0px, 0px) rotate(0deg); }
-    95% { transform: translate(-9px, 1px) rotate(11deg); }
-    100% { transform: translate(-5px, 7px) rotate(-1deg); }
+    90% { transform: translate(-9px, 1px) rotate(11deg); }
+    95% { transform: translate(-5px, 7px) rotate(-1deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
 }
 
 /* Media queries */
