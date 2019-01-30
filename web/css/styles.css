@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     margin: 0;
     filter: drop-shadow(10px 10px 10px #000);
-    background: url('../images/background.png') center;
+    background: url('../images/background.png') fixed center;
     background-size: cover;
     color: #fff;
     font-weight: 300;
@@ -20,6 +20,7 @@ body {
     position: relative;
     text-align: center;
     transform: translateY(10%);
+    margin-bottom: 10%;
 }
 
 #avatar {
