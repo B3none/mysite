@@ -107,15 +107,13 @@ ul li img:hover {
 }
 
 /* Media queries */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 576px) {
     ul li {
         display: block;
         margin-top: 20px;
         margin-left: 0;
     }
-}
-
-@media only screen and (max-width: 576px) {
+    
     body {
         overflow-y: scroll;
         overflow-x: hidden;
