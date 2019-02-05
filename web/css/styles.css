@@ -22,6 +22,10 @@ body {
     transform: translateY(10%);
 }
 
+.stack-overflow-icon {
+    display: none;
+}
+
 #avatar {
     width: 175px;
     height: 175px;
